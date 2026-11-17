@@ -1,0 +1,34 @@
+[
+    {
+        "sat_id": "VANGUARD-SAR-1",
+        "norad_id": 61001,
+        "mission_role": "All-Weather X-Band SAR",
+        "priority_tier": 1,
+        "eirp_dbw": 16.5,
+        "downlink_rate_mbps": 150.0
+    },
+    {
+        "sat_id": "VANGUARD-EO-2",
+        "norad_id": 61002,
+        "mission_role": "High-Res Optical Tip-and-Cue",
+        "priority_tier": 2,
+        "eirp_dbw": 15.5,
+        "downlink_rate_mbps": 150.0
+    },
+    {
+        "sat_id": "SENTINEL-SIG-3",
+        "norad_id": 61003,
+        "mission_role": "Mid-Inclination Maritime RF",
+        "priority_tier": 1,
+        "eirp_dbw": 14.8,
+        "downlink_rate_mbps": 150.0
+    },
+    {
+        "sat_id": "PATHFINDER-TD-4",
+        "norad_id": 61004,
+        "mission_role": "Polar Tech-Demo CubeSat",
+        "priority_tier": 3,
+        "eirp_dbw": 11.2,
+        "downlink_rate_mbps": 150.0
+    }
+]

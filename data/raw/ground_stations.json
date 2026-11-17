@@ -1,0 +1,42 @@
+[
+    {
+        "station_id": "GS-SVALBARD",
+        "station_name": "Svalbard Polar Station (Norway)",
+        "lat_deg": 78.2298,
+        "lon_deg": 15.4078,
+        "alt_m": 460.0,
+        "min_el_deg": 5.0,
+        "g_over_t_dbk": 29.5,
+        "turnaround_slew_sec": 60.0
+    },
+    {
+        "station_id": "GS-WALLOPS",
+        "station_name": "Wallops Flight Facility (Virginia, US)",
+        "lat_deg": 37.9402,
+        "lon_deg": -75.4664,
+        "alt_m": 12.0,
+        "min_el_deg": 7.0,
+        "g_over_t_dbk": 28.5,
+        "turnaround_slew_sec": 60.0
+    },
+    {
+        "station_id": "GS-MAHIA",
+        "station_name": "Mahia / Auckland Tracking Site (NZ)",
+        "lat_deg": -39.2608,
+        "lon_deg": 177.8659,
+        "alt_m": 115.0,
+        "min_el_deg": 6.0,
+        "g_over_t_dbk": 27.8,
+        "turnaround_slew_sec": 60.0
+    },
+    {
+        "station_id": "GS-GUAM",
+        "station_name": "Andersen / Indo-Pacific Node (Guam)",
+        "lat_deg": 13.584,
+        "lon_deg": 144.9245,
+        "alt_m": 162.0,
+        "min_el_deg": 8.0,
+        "g_over_t_dbk": 26.2,
+        "turnaround_slew_sec": 60.0
+    }
+]

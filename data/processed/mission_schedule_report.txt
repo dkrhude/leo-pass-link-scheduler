@@ -1,0 +1,32 @@
+======================================================================================
+24-HOUR LEO CONSTELLATION PASS SCHEDULER & X-BAND LINK DECONFLICTION REPORT
+======================================================================================
+
+[1] SPACECRAFT DOWNLINK FULFILLMENT & CONTENTION SUMMARY:
+Spacecraft       Pri    Raw_Passes  Scheduled  Dish_Conflicts  Low_RF_Margin  Downlink_GB
+---------------  -----  ----------  ---------  --------------  -------------  -----------
+VANGUARD-SAR-1   PRI-1  24          20         0               4              181.1      
+SENTINEL-SIG-3   PRI-1  16          12         0               4              98.2       
+VANGUARD-EO-2    PRI-2  23          0          19              4              0.0        
+PATHFINDER-TD-4  PRI-3  24          10         3               11             66.6       
+
+[2] GROUND STATION ANTENNA UTILIZATION & RF LINK PERFORMANCE:
+Station      Visibility_Hits  Contacts_Allocated  Contention_Drops  Duty_Cycle  Avg_Peak_Margin_dB
+-----------  ---------------  ------------------  ----------------  ----------  ------------------
+GS-SVALBARD  41               17                  14                10.7%       9.71              
+GS-WALLOPS   18               11                  4                 5.8%        8.1               
+GS-MAHIA     18               8                   2                 4.5%        8.03              
+GS-GUAM      10               6                   2                 3.3%        7.89              
+
+[3] SAMPLE SINGLE-DISH CONTENTION RESOLUTIONS (60-SEC SLEW BUFFER ENFORCED):
+Dropped_Pass  Dropped_Sat    Station      AOS_UTC   Winning_Pass  Winning_Sat     Max_El
+------------  -------------  -----------  --------  ------------  --------------  ------
+PASS-0042     VANGUARD-EO-2  GS-MAHIA     12:27:20  PASS-0018     VANGUARD-SAR-1  38.64 
+PASS-0025     VANGUARD-EO-2  GS-SVALBARD  13:04:00  PASS-0001     VANGUARD-SAR-1  85.55 
+PASS-0046     VANGUARD-EO-2  GS-GUAM      14:17:40  PASS-0023     VANGUARD-SAR-1  22.08 
+PASS-0026     VANGUARD-EO-2  GS-SVALBARD  14:38:30  PASS-0002     VANGUARD-SAR-1  54.81 
+PASS-0027     VANGUARD-EO-2  GS-SVALBARD  16:12:40  PASS-0003     VANGUARD-SAR-1  45.19 
+PASS-0038     VANGUARD-EO-2  GS-WALLOPS   16:26:50  PASS-0014     VANGUARD-SAR-1  40.66 
+PASS-0028     VANGUARD-EO-2  GS-SVALBARD  17:46:40  PASS-0004     VANGUARD-SAR-1  50.68 
+PASS-0039     VANGUARD-EO-2  GS-WALLOPS   18:02:20  PASS-0015     VANGUARD-SAR-1  12.58 
+======================================================================================
